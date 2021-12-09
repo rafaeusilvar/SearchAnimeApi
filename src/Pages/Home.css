@@ -1,0 +1,18 @@
+.imagem-inicial {
+  background: linear-gradient(rgba(0,0,0.50),rgba(0,0,0,.50)50%), url('https://www.geekproject.com.br/wp-content/uploads/2018/03/shonen-jump.jpg');
+  height:700px;
+  margin-top: -20%;
+  background-size:cover;
+  display: flex;
+}
+
+@media screen and (max-width:700px){
+.imagem-inicial{
+  background: linear-gradient(rgba(0,0,0.50),rgba(0,0,0,.50)50%), url('https://www.geekproject.com.br/wp-content/uploads/2018/03/shonen-jump.jpg');
+  height:190px;
+  margin-top: -20%;
+  background-size:cover;
+  display: flex;
+}
+
+}
