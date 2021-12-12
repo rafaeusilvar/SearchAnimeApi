@@ -35,7 +35,7 @@ function API(){
     {info.data && (
       <ul className='animes-list'>
         {info.data.map((anime) => (
-          <li key={anime.id}>
+          <li className='info-api' key={anime.id}>
             <img
             src={anime.attributes.posterImage.small}
             alt={anime.attributes.canonicalTitle}
