@@ -5,6 +5,8 @@ import './Api.css';
 
 const api = 'https://kitsu.io/api/edge/';
 
+const LIMIT = 12;
+
 function API(){
   const [info, setInfo] = useState({});
   const [text, setText] = useState('');
@@ -13,7 +15,7 @@ function API(){
   useEffect(() => {
     setInfo({});
    if (text){
-     fetch(`${api}anime?filter[text]=${text}&page[limit]=12`)
+     fetch(`${api}anime?filter[text]=${text}&page[limit]=${LIMIT}`)
      .then((response) => response.json())
      .then((response) => {
        setInfo(response);
