@@ -4,7 +4,7 @@ import './Footer.css';
 
 const Footer = () => {
   return ( 
-    <h5>Pesquise o seu anime favorito!</h5>
+    <h5>API Anime Experience.</h5>
    );
 }
  
