@@ -29,7 +29,7 @@ span{
 @media screen and (max-width:700px){
   .animes-list img{
     padding: 3%;
-    max-width: 40%;
+    max-width: 70%;
   } 
 
   .animes-list{
@@ -39,6 +39,8 @@ span{
   }
 
   .info-api{
+    padding: 20px;
+    margin: 25px;
     display: flex;
     border: 1px solid white;
     flex-direction: column;

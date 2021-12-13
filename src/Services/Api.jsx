@@ -41,7 +41,6 @@ function API(){
             alt={anime.attributes.canonicalTitle}
             />
               {anime.attributes.canonicalTitle}
-              <br />
               <p>Total de Episódios:</p>
               {anime.attributes.episodeCount}
             </li>
