@@ -4,7 +4,7 @@ import './Footer.css';
 
 const Footer = () => {
   return ( 
-    <h5>API Anime Experience.</h5>
+    <h5>Anime Experience - Rafael Silva.</h5>
    );
 }
  
