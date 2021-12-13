@@ -1,11 +1,12 @@
 h2{
+  font-family: 'Montserrat', sans-serif;
   padding-top: 30px;
   color: white;
   font-size: 30px;
 }
 
 .imagem-inicial {
-  background: linear-gradient(rgba(0,0,0.50),rgba(0,0,0,.50)50%), url('https://images3.alphacoders.com/852/852089.png');
+  background: linear-gradient(rgba(0,0,0.50),rgba(0,0,0,.50)50%), url('https://wallpaperaccess.com/full/1851786.jpg');
   height:700px;
   margin-top: -90px;
   background-size:cover;

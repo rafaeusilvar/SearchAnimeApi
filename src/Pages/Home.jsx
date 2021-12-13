@@ -5,7 +5,7 @@ import './Home.css';
 const Home = () => {
   return ( 
     <>
-    <h2>API Anime Experience</h2>
+    <h2>Anime Experience</h2>
     <div className="imagem-inicial" />
     </>
    );
