@@ -8,7 +8,7 @@ h2{
 .imagem-inicial {
   background: linear-gradient(rgba(0,0,0.50),rgba(0,0,0,.50)50%), url('https://wallpaperaccess.com/full/1851786.jpg');
   height:700px;
-  margin-top: -12%;
+  margin-top: -20%;
   background-size:cover;
   display: flex;
 }
@@ -17,7 +17,7 @@ h2{
 .imagem-inicial{
   background: linear-gradient(rgba(0,0,0.50),rgba(0,0,0,.50)10%), url('https://thumbs.gfycat.com/AbsoluteQueasyBalloonfish-size_restricted.gif');
   height:350px;  
-  margin-top: -25%;
+  margin-top: -28%;
   background-size:cover;
   display: flex;
 }
