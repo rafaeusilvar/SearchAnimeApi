@@ -1,13 +1,13 @@
-.App{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.App {
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
-h1{
+h1 {
   color: white;
 }
 
-.animes-list{
+.animes-list {
   margin-top: 5%;
   display: grid;
   color: white;
@@ -16,36 +16,33 @@ h1{
   grid-gap: 1.5rem;
 }
 
-.animes-list img{
+.animes-list img {
   max-width: 80%;
 }
 
-span{
+span {
   margin: 2%;
   color: white;
 }
 
-
-@media screen and (max-width:700px){
-  .animes-list img{
+@media screen and (max-width: 700px) {
+  .animes-list img {
     padding: 3%;
     max-width: 70%;
-  } 
+  }
 
-  .animes-list{
+  .animes-list {
     display: flex;
     flex-direction: column;
     display: grid;
   }
 
-  .info-api{
+  .info-api {
     padding: 20px;
     margin: 25px;
     display: flex;
     border: 1px solid white;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
   }
-
 }
-
