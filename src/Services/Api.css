@@ -18,6 +18,7 @@ h1 {
 
 .animes-list img {
   max-width: 80%;
+  margin: 10px;
 }
 
 span {
