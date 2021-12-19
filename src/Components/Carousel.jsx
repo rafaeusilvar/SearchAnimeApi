@@ -20,7 +20,7 @@ export default function Carousel() {
         </MDBCarouselItem>
 
         <MDBCarouselItem>
-          <MDBCarouselElement src='https://initiate.alphacoders.com/images/841/cropped-1366-768-841139.jpg?4885' alt='...' />
+          <MDBCarouselElement src='https://initiate.alphacoders.com/images/841/cropped-1366-768-841139.jpg?4885' alt='imagem anine' />
           <MDBCarouselCaption>
             <h5>Anime Experience</h5>
             <p>uma plataforma de descoberta de anime moderna que ajuda você a rastrear o anime que está assistindo.</p>
